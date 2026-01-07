@@ -1,1 +1,0 @@
-/home/lenamigtle/curso-syn/SYNOPSYS_TSMC180/Proyectos_SV/deboucing_FSM/hw/Makefile/Makefile.vcs
