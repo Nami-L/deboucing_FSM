@@ -112,8 +112,8 @@ COLORTERM=truecolor
 0
 0
 5
-1767743303 /home/lenamigtle/curso-syn/SYNOPSYS_TSMC180/Proyectos_SV/deboucing_FSM/hw/rtl/deboucing_circuito.sv
-1767743266 /home/lenamigtle/curso-syn/SYNOPSYS_TSMC180/Proyectos_SV/deboucing_FSM/hw/tb/tb_debouncing_circuito.sv
+1767746103 /home/lenamigtle/curso-syn/SYNOPSYS_TSMC180/Proyectos_SV/deboucing_FSM/hw/rtl/deboucing_circuito.sv
+1767744220 /home/lenamigtle/curso-syn/SYNOPSYS_TSMC180/Proyectos_SV/deboucing_FSM/hw/tb/tb_debouncing_circuito.sv
 1767737929 /home/lenamigtle/curso-syn/SYNOPSYS_TSMC180/Proyectos_SV/deboucing_FSM/hw/pkg/fsm_debou_pkg.sv
 1725875821 /opt2/synopsys/verdi/U-2023.03-SP2-9/share/PLI/VCS/LINUX64/verdi.tab
 1727233580 /opt2/synopsys/vcs/U-2023.03-SP2-9/linux64/lib/vcsdp_lite.tab
@@ -122,5 +122,5 @@ COLORTERM=truecolor
 1727234639 /opt2/synopsys/vcs/U-2023.03-SP2-9/linux64/lib/liberrorinf.so
 1727234543 /opt2/synopsys/vcs/U-2023.03-SP2-9/linux64/lib/libsnpsmalloc.so
 1727234633 /opt2/synopsys/vcs/U-2023.03-SP2-9/linux64/lib/libvfs.so
-1767743308 simv.daidir
+1767746109 simv.daidir
 -1 partitionlib

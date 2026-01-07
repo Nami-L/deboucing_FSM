@@ -8,9 +8,15 @@ module deboucing_circuito (
     input logic clk_i,
     input logic rst_i,
     input logic sw_i,
-    input logic m_tick_i,
+   // input logic m_tick_i,
     output logic db_o
 );
+// Parameters for tick counter
+localparam N= 2;
+logic [N-1:0] q_reg;
+logic [N-1:0] q_next;
+logic m_tick_i;
+
 
 import fsm_debou_pkg::*; // import the package that we created, where contains the states
 state_e state, next; // variables of type state_e of the package
@@ -67,7 +73,7 @@ end
 
 // Third always block: output logic state
 
-always_ff @(posedge clk_i or posedge rst_i)
+always_ff @(posedge clk_i or posedge rst_i)begin
  if(rst_i) begin
     db_o <= 1'b0;
  end
@@ -85,6 +91,16 @@ else begin
         default : db_o <= 1'b0;
     endcase
 end
+end
+// tick counter to generate "x" ms tick 
 
+always_ff @(posedge clk_i or posedge rst_i) begin
+if(rst_i)
+    q_reg <= '0;
+else 
+    q_reg <= q_next;
+end
 
+assign q_next = q_reg + 1;
+assign m_tick_i = (q_reg == 0) ? 1'b1 : 1'b0;
 endmodule: deboucing_circuito
