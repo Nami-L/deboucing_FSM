@@ -1,5 +1,11 @@
 `timescale 1ns/1ps
 
+// design deboucing circuit using 3 always block
+// This design use FSM with 8 state, where the main function is to eliminate the boucing effect
+// when a mechinical switch is pressed. So any change in the signal sw, for examen (0 to 1 or 1 to 0)
+// is only considerated valid if the signal remain satable for 3 consecutive m_tick 
+
+
 module tb_debouncing_circuito;
 // Signals
 logic clk_i = 0;

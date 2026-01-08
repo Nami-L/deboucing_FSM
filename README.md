@@ -1,6 +1,8 @@
 # deboucing_FSM
 How to design a deboucing circuito using Finite state machine
 
+![Debouncing](simulacion Synopsys.png "Título opcional")
+
 ## Comando para configurar synopsys usando **Makefile**
 
 ```bash
