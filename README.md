@@ -29,7 +29,7 @@ After completing these steps you will have the environmente ready to work. You c
 - make sim : Runs the simulation and displays the signals
 - make verdi : Opens the graphical interfacee
 
-Of course, if you have any question o any problem you can write make var or make help to see where/what is the problem.
+Of course, if you have any question o any problem you can write **make var** or **make help** to see where/what is the problem.
 I add my email to connect with me if you requiered : namigtle066@gmail.com :)
 
 
